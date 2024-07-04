@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-    width: 75%;
+    width: 100%;
     margin: auto;
     overflow: hidden;
 }
@@ -233,7 +233,7 @@ progress::-moz-progress-bar {
 }
 
 /* Laajennettu media query */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     main.content {
         flex-direction: column;
     }
