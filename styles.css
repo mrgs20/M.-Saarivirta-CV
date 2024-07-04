@@ -7,13 +7,13 @@ body {
 }
 
 .container {
-    width: 100%;
+    width: 90%;
     margin: auto;
     overflow: hidden;
 }
 
 header {
-    background: #333;
+    background: #003087;
     color: #fff;
     padding-top: 30px;
     min-height: 70px;
@@ -121,7 +121,6 @@ aside.skills .flag {
     vertical-align: middle; /* Varmistaa, että kuva on tekstin keskellä */
 }
 
-
 aside.skills .soft-skills ul {
     padding-left: 10px; /* Lisää sisennys ranskalaisten viivojen listaamiseen */
     list-style-type: "\1F44D"; /* Aseta listan tyyppi ranskalaisiksi viivoiksi */
@@ -209,12 +208,12 @@ progress::-webkit-progress-bar {
 }
 
 progress::-webkit-progress-value {
-    background-color: #77d42a;
+    background-color: #005afd;
     border-radius: 10px;
 }
 
 progress::-moz-progress-bar {
-    background-color: #77d42a;
+    background-color: #005afd;
     border-radius: 10px;
 }
 
@@ -224,12 +223,22 @@ progress::-moz-progress-bar {
 }
 
 .skills li, .certifications li {
-    background: #77d42a;
+    background: #3a6bc3;
     color: #fff;
     padding: 5px 10px;
     margin-bottom: 10px;
     border-radius: 15px;
     text-align: center;
+}
+
+.certifications a {
+    color: #FFFFFF; /* Aseta haluamasi väri */
+    text-decoration: none; /* Poista alleviivaus */
+}
+
+.certifications a:hover {
+    color: #d93025; /* Aseta väri hover-tilassa */
+    text-decoration: underline; /* Lisää alleviivaus hover-tilassa */
 }
 
 /* Laajennettu media query */
